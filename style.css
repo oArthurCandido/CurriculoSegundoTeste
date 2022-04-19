@@ -1,0 +1,153 @@
+/* ========= RESET =========*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+.divider-1{
+  height: 1px;
+  background: linear-gradient(270deg,
+  hsla(var(--hue), 36%, 57%, 1) ,
+  hsla(var(--hue), 65%, 88%, 0.34) 
+  );
+}
+
+ 
+
+/* ========= Variables =========*/
+:root{
+--header-height: 4.5rem;
+--hue: 600;
+
+/* fonts */
+
+--general-font: 'DM sans', sans-serif;
+--logo-font: 'Poppins', sans-serif;
+
+}
+/* ========= Base =========*/
+body {
+  font: 400 1rem var(--general-font);
+  color: #2C3547;
+}
+
+body ul {
+  list-style: circle;
+}
+
+#links ul{
+  list-style: none;
+}
+
+
+.container {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding: 0.5rem 0;
+
+  /* ========= Fonts =========*/
+}
+h2 {
+  font: 700 1.2rem var(--general-font);
+  color: #2C3547;
+}
+ 
+h3 {
+  font: 500 1.1rem var(--general-font);
+  color: #2C3547;
+}
+h4 {
+  font: 400 1rem var(--general-font);
+  color: #2C3547;
+}
+
+
+ /* ========= Layout =========*/
+
+ .logo {
+  font: 900 1.85rem var(--logo-font);
+  color: #3967C4;
+  transition: 5s;
+  
+
+ }
+
+ main {
+   margin-top: var(--header-height);
+ }
+
+ .experiencia {
+   padding: 1rem 0;
+ }
+
+#header {
+  border-bottom: 1px solid #c6ccd2;
+  margin-bottom: 2rem;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  background-color: #C8CFDE;
+  top: 0;
+  left: 0;
+}
+
+#header.scroll {
+  box-shadow: 0px 0px 0.5px 0.3px #0a426a;
+}
+
+#header.scroll .logo {
+  color: #294B8F;
+  transition: 5s;
+}
+nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+@media (min-width: 950px) {
+  main {
+    margin-top: var(--header-height);
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+  .container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+#contact .grid {
+  gap: 4rem;
+
+}
+
+#contact i {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+  align-items: center;
+  font-weight: 550;
+}
+
+footer {
+  background-color: #C8CFDE;
+  margin-right: 0;
+  margin-left: 0;
+  color: #2C3547;
+}
+
+footer a {
+  color: #2C3547;
+}
+
