@@ -86,6 +86,8 @@ h4 {
    margin-top: var(--header-height);
  }
 
+
+
  .experiencia {
    padding: 1rem 0;
  }
@@ -131,20 +133,28 @@ nav {
 
 }
 
+#home {
+  margin-bottom: 1rem;
+}
+
+#home h2 {
+  margin-top: 2rem;
+}
+
 #contact .grid {
   gap: 4rem;
 
 }
 
-#contact i {
+footer i {
   font-size: 1.2rem;
   margin-right: 0.5rem;
   align-items: center;
-  font-weight: 550;
+  font-weight: 600;
 }
 
 footer {
-  background-color: #C8CFDE;
+  background: #C8CFDE;
   margin-right: 0;
   margin-left: 0;
   color: #2C3547;
