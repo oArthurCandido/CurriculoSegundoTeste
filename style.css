@@ -73,8 +73,9 @@ h4 {
 
  .logo {
   font: 900 1.85rem var(--logo-font);
-  color: #3967C4;
+  color: #294B8F;
   transition: 5s;
+  
   
 
  }
@@ -103,7 +104,7 @@ h4 {
 }
 
 #header.scroll .logo {
-  color: #294B8F;
+  color: #3967C4;
   transition: 5s;
 }
 nav {
